@@ -1,15 +1,12 @@
+import AboutUs from "./component/AboutUs";
 
-import './App.css'
-import AboutUs from './component/AboutUs'
 
 function App() {
-  
-
   return (
-    <>
-    <AboutUs />
-    </>
-  )
+    <div>
+      <AboutUs />
+    </div>
+  );
 }
 
-export default App
+export default App;

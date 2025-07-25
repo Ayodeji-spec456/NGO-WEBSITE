@@ -1,108 +1,142 @@
 import React from "react";
 import "./AboutUs.css";
 
+
 const AboutUs = () => {
   return (
-    <>
-    
-    <div
-      className="about-us"
-      style={{
-        padding: "2rem",
-        fontFamily: "Arial, sans-serif",
-        lineHeight: "1.7",
-      }}
-    >
-      <h1 style={{ fontSize: "2rem", color: "#333" }}>🧬 About Us</h1>
+    <section className="about-section">
+      <div className="container">
+        <div className="about-header">
+          <h2>About Us</h2>
+          <h1>Welcome to Non-governmental Organisation</h1>
+        </div>
 
-      <section>
-        <h2>👥 Who We Are</h2>
         <p>
-          We are a collaborative team of students and health advocates committed
-          to educating the public about vital age-related diseases. Our project
-          sheds light on common illnesses that affect people at different stages
-          of life—from childhood to old age.
+          The Nigeria Network of NGOs (NNNGO) is the first generic membership
+          body for civil society organisations in Nigeria that facilitates
+          effective advocacy on issues of poverty and other developmental
+          issues. Established in 1992, NNNGO represents over 3495 organisations
+          ranging from small groups working at the local level, to larger
+          networks working at the national level.
         </p>
-      </section>
 
-      <section>
-        <h2>🎯 Our Mission</h2>
         <p>
-          Our mission is to <strong>spread awareness</strong>,{" "}
-          <strong>simplify medical information</strong>, and
-          <strong> encourage early detection and prevention</strong> of
-          age-specific diseases. We believe that knowledge and awareness can
-          save lives and improve long-term health outcomes.
+          The Network is charged with the objective of identifying, registering,
+          coordinating, building capacity and mobilizing civil society
+          organisations to promote interconnectivity and bring equity, justice,
+          peace, and development to grassroots communities throughout Nigeria,
+          including the implementation of the Sustainable Development Goals
+          (SDGs).
         </p>
-      </section>
 
-      <section>
-        <h2>🧠 Why We Care</h2>
+        <p className="intro">
+          We are a nonprofit organization committed to strengthening the
+          capacity of civil society organizations (CSOs) in Nigeria. Our network
+          brings together grassroots initiatives, advocacy groups, development
+          partners, and nonprofit organizations to foster collaboration,
+          accountability, and social impact.
+        </p>
+
+        <h3>👥 Our Story</h3>
         <p>
-          Diseases like <em>diabetes in adults</em>,{" "}
-          <em>hypertension in seniors</em>, or <em>asthma in children</em> often
-          go unnoticed or untreated due to lack of awareness. We aim to change
-          that by providing accessible information that empowers people to take
-          control of their health at every age.
+          Founded in 1992, our organization began as a small coalition of NGOs
+          seeking to address the fragmented and often under-resourced nonprofit
+          landscape in Nigeria. Over the decades, we have evolved into a
+          national network representing thousands of CSOs across diverse
+          sectors—from education and healthcare to environmental protection and
+          women’s rights.
         </p>
-      </section>
+        <p>
+          We believe that a strong civil society is essential for democracy,
+          sustainable development, and social justice. Through partnerships,
+          training, policy dialogue, and research, we have helped amplify the
+          voices of the underserved and empowered organizations to thrive and
+          create long-lasting change.
+        </p>
 
-      <section>
-        <h2>📊 What We Cover</h2>
+        <h3>🎯 Our Mission</h3>
+        <p>
+          To build a resilient and inclusive civil society ecosystem in Nigeria
+          by enhancing nonprofit performance, advocating for enabling legal and
+          policy environments, and promoting collaboration among stakeholders.
+        </p>
+
+        <h3>Our Vision</h3>
+        <p>
+          A vibrant, empowered, and accountable civil society that supports
+          inclusive growth, democratic governance, and the well-being of all
+          Nigerians.
+        </p>
+
+        <h3>🧠Our Core Values</h3>
         <ul>
           <li>
-            <strong>Childhood Illnesses</strong> – Asthma, Measles, Sickle Cell
-            Anemia
+            <strong>Transparency:</strong> We maintain openness in all our
+            operations and dealings.
           </li>
           <li>
-            <strong>Adolescent Health Risks</strong> – Mental Health, Eating
-            Disorders, STDs
+            <strong>Accountability:</strong> We take responsibility for our
+            actions and their impact on communities.
           </li>
           <li>
-            <strong>Adult-Onset Diseases</strong> – Diabetes, High Blood
-            Pressure, Fertility Issues
+            <strong>Inclusivity:</strong> We believe in equal opportunity for
+            all, regardless of gender, age, or background.
           </li>
           <li>
-            <strong>Elderly Health Conditions</strong> – Alzheimer’s, Arthritis,
-            Stroke
+            <strong>Collaboration:</strong> We work with local and international
+            partners to amplify impact.
+          </li>
+          <li>
+            <strong>Innovation:</strong> We embrace new ideas to solve complex
+            social issues.
           </li>
         </ul>
-      </section>
 
-      <section>
-        <h2>🤝 Our Team Values</h2>
+        <h3>📊What We Do</h3>
         <ul>
           <li>
-            <strong>Empathy</strong> – We care deeply about people’s health and
-            well-being.
+            Provide training and resources for nonprofit development and
+            governance
           </li>
           <li>
-            <strong>Teamwork</strong> – Collaboration is our strength.
+            Advocate for laws and policies that support NGO operations and
+            independence
           </li>
           <li>
-            <strong>Education</strong> – We break down complex topics into
-            simple, relatable info.
+            Conduct research on civil society trends, impact, and challenges
           </li>
           <li>
-            <strong>Impact</strong> – Our goal is real-life change, not just
-            theory.
+            Support NGOs in registration, compliance, and regulatory filing
+          </li>
+          <li>Create platforms for cross-sector dialogue and partnerships</li>
+          <li>
+            Monitor and evaluate nonprofit projects and donor accountability
           </li>
         </ul>
-      </section>
 
-      <section>
-        <h2>📢 Get Involved</h2>
+        <h3>🤝 Our Impact (2024 Highlights)</h3>
+        <ul>
+          <li>2,400+ registered NGOs actively engaged across Nigeria</li>
+          <li>
+            350+ capacity building workshops and online trainings conducted
+          </li>
+          <li>120 policy briefs and civil society reports published</li>
+          <li>
+            Millions of citizens indirectly impacted through member
+            interventions
+          </li>
+        </ul>
+
+        <h3>📢 Join Us</h3>
         <p>
-          This isn’t just about us—it’s about <strong>you</strong>, your family,
-          and your future. Join the movement by sharing our content, giving
-          feedback, or simply learning something new about the diseases that
-          affect people like you every day.
+          Whether you're an organization looking to scale your impact or an
+          individual passionate about nonprofit development, we welcome you to
+          be part of our mission. Together, we can create a stronger, more just
+          society for all.
         </p>
-      </section>
-    </div>
-    </>
+      </div>
+    </section>
   );
 };
 
 export default AboutUs;
-

@@ -1,38 +1,38 @@
-body {
-  background-color: #f9f9f9;
+body, html, .about-section {
+  margin: 0;
+  padding: 0;
 }
-.about-us {
-  padding: 2rem;
-  max-width: 900px;
+
+.container {
+  max-width: 1000px;
   margin: 0 auto;
-  font-family: 'Segoe UI', sans-serif;
-  color: #222;
-  line-height: 1.8;
+  padding: 40px 20px;
 }
 
-.about-us h1 {
-  font-size: 2.5rem;
-  color: #2c3e50;
-  margin-bottom: 1rem;
+.about-header {
+  background-color: #e5f3f0;
+  padding: 60px 20px;
   text-align: center;
-  border-bottom: 3px solid #0fb;
-  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 
-.about-us section {
-  margin-bottom: 2rem;
+.about-header h2 {
+  font-size: 22px;
+  color: #00695c;
+  margin: 0;
 }
 
-.about-us h2 {
-  color: #0fb;
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+.about-header h1 {
+  font-size: 32px;
+  color: #004d40;
+  margin-top: 10px;
 }
 
-.about-us ul {
-  padding-left: 1.2rem;
-}
 
-.about-us ul li {
-  margin-bottom: 0.6rem;
+.about-section p,
+.about-section li {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
 }
