@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.come {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+     list-style: none;
+    gap: 130px;
+    width: 100%;
+    position: fixed;
+}
+.them {
+    width: 100px;
+}
+.map {
+    text-decoration: none;
+    color: black;
+}
+.top {
+    margin-top: 40px;
+    text-decoration: none;
+}
+.name {
+    font-size: 60px;
+}
+.icon {
+    font-size: 100px;
+    color: rgb(33, 33, 244);
+}
+.text {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 150px;
+}
+.one {
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+}
+.col {
+    border: 1px solid blue;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+}
+.move {
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 60px;
+}
+.farm {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.funk {
+    width: 860px;
+    height: 200px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.song {
+    width: 400px;
+    padding: 20px;
+    margin-left: 30px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.btn {
+    padding: 15px;
+    width: 160px;
+    margin-right: 700px;
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+}
+.fun {
+    font-size: 50px;
+}
+.cap {
+    width: 860px;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.big {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .come {
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+} */
