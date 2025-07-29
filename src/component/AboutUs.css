@@ -1,0 +1,38 @@
+body, html, .about-section {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.about-header {
+  background-color: #e5f3f0;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.about-header h2 {
+  font-size: 22px;
+  color: #00695c;
+  margin: 0;
+}
+
+.about-header h1 {
+  font-size: 32px;
+  color: #004d40;
+  margin-top: 10px;
+}
+
+
+.about-section p,
+.about-section li {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+}
