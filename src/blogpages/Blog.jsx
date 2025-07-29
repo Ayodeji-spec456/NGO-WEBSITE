@@ -65,7 +65,7 @@ const Blog = () => {
 
         <div style={{display: "flex"}}>
           <div>
-            <img src="" alt="" />
+            {/* <img src="" alt="" /> */}
           </div>
         </div>
       </div>
