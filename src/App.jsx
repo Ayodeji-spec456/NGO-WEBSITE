@@ -11,9 +11,12 @@ function App() {
   return (
     <div>
       <AboutUs />
+      <Events />
 
       <BrowserRouter>
         <Routes>
+          <Route path="/event" element={<Events />} />
+          <Route path="/about" element={<AboutUs />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blogView/:encodedUrl" element={<BlogView />} />
         </Routes>
