@@ -1,5 +1,6 @@
 import React from "react";
 import "./Blog.css";
+import { FaArrowLeft } from "react-icons/fa";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 
 const BlogView = () => {
@@ -11,6 +12,7 @@ const BlogView = () => {
   return (
     <div style={{ padding: "20px", maxWidth: "800px", margin: "auto" }}>
       <button onClick={() => navigate(-1)} style={{ marginBottom: "20px" }}>
+        <FaArrowLeft /> 
         Back
       </button>
       <h1>{article.title}</h1>
