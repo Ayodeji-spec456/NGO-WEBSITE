@@ -1,38 +1,82 @@
-body, html, .about-section {
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
-
-.about-header {
-  background-color: #e5f3f0;
-  padding: 60px 20px;
+h2{
   text-align: center;
-  border-radius: 10px;
-  margin-bottom: 30px;
 }
-
-.about-header h2 {
-  font-size: 22px;
-  color: #00695c;
+*{
+  padding: 0;
   margin: 0;
+  margin-top: autog;
 }
-
-.about-header h1 {
-  font-size: 32px;
-  color: #004d40;
+.old1{
+ width: 50%;
+ place-items: center;
+ border-radius: 20px;
+ position: relative;
+}
+.hero-text{
+text-align: center;
+background-color: orangered;
+padding: 20px;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+.aboutus{
+  box-shadow: rgba(100, 100, 111, 0.2)0px 7px 29px 0px;
+  position: absolute; 
+  width: 350px;
+  background-color: whitesmoke;
+  text-align: center;
+   margin-left: 100px;
+  padding: 30px;
+  left: 500px;
+  /* font-weight: bolder; */
+} 
+.head{
+ font-weight: bolder;
+ font-style: normal;
+ margin-top: 10px;
+}
+.old{
+  display: flex;
+  flex-wrap: wrap;
+  place-items: center;
+  margin: 20px;
+}
+h2{
+  margin: 20px;
+}
+.about-div{
+  display: flex;
+ box-shadow: rgba(100, 100, 111, 0.2)0px 7px 29px 0px;
+     padding: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin: 50px;
+}
+.about-section-one{
+  padding: 20px;
+  border-radius: 15px;
+}
+ .about-section{
+  margin-left: 100px;
+ }
+ h1{
+  color: rgb(244, 243, 243);
+  font-size: xx-large;
+ }
+.core{
+   display: flex;
+ box-shadow: rgba(100, 100, 111, 0.2)0px 7px 29px 0px;
+     padding: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin: 50px;
+}
+h3{
+  margin-left: 0px;
   margin-top: 10px;
 }
-
-
-.about-section p,
-.about-section li {
-  font-size: 18px;
-  line-height: 1.7;
-  color: #333;
+.mission{
+  margin-top: 20px;
 }
