@@ -12,10 +12,10 @@ const Home = () => {
             <Link className='map' to="/home">Home</Link>
           </li>
           <li className='top'>
-            <Link className='map' to="/">Events</Link>
+            <Link className='map' to="/events">Events</Link>
           </li>
           <li className='top'>
-            <Link className='map' to="/">Blog</Link>
+            <Link className='map' to="/blog">Blog</Link>
           </li>
           <li className='top'>
             <Link className='map' to="/about">About Us</Link>
