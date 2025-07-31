@@ -9,7 +9,7 @@ const Home = () => {
         <ul className="come">
           <img className='them' src="/logo1.png" alt="" />
           <li className='top'>
-            <Link className='map' to="/home">Home</Link>
+            <Link className='map' to="/">Home</Link>
           </li>
           <li className='top'>
             <Link className='map' to="/events">Events</Link>
