@@ -6,37 +6,6 @@ import { PiGlobe } from "react-icons/pi";
 const Contact = () => {
   return (
     <>
-      <nav>
-        <ul className="come">
-          <img className="them" src="/logo.jpg" alt="" />
-          <li className="top">
-            <Link className="map" to="/">
-              Home
-            </Link>
-          </li>
-          <li className="top">
-            <Link className="map" to="/">
-              Events
-            </Link>
-          </li>
-          <li className="top">
-            <Link className="map" to="/">
-              Blog
-            </Link>
-          </li>
-          <li className="top">
-            <Link className="map" to="/">
-              About Us
-            </Link>
-          </li>
-          <li className="top">
-            <Link className="map" to="/">
-              Contact Us
-            </Link>
-          </li>
-        </ul>
-      </nav>
-
       <div className="text">
         <h1>
           <b className="name">Contact </b>
@@ -47,7 +16,7 @@ const Contact = () => {
       <br />
       <br />
 
-      <div className='big'>
+      <div className="big">
         <div className="one">
           <FaMapLocationDot className="icon" />
           <br />
@@ -72,11 +41,14 @@ const Contact = () => {
           <p>+234 9132825827</p>
           <p>+234 7053089429</p>
         </div>
-        <div className='one'>
-          <PiGlobe className='icon' />
-          <br /><br /><br />
+        <div className="one">
+          <PiGlobe className="icon" />
+          <br />
+          <br />
+          <br />
           <h1>Web Connect</h1>
-          <br /><br />
+          <br />
+          <br />
           <p>aayodeji010@gmail.com</p>
         </div>
       </div>
@@ -130,6 +102,15 @@ const Contact = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.1252932083694!2d4.544577074765862!3d7.776536992243056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1037895c78efeac5%3A0xac5ed308fc48ad34!2sOIC%20Hub!5e0!3m2!1sen!2sng!4v1747777668593!5m2!1sen!2sng"
             className="cap"
           ></iframe>
+        </div>
+      </div>
+      <div>
+        <div>
+          <img src="/logo1.png" alt="" />
+          <h3>
+            We are a bridge in the soceity, connecting the disadvantaged and
+            unheard, with opportunities for a more fulfilled life
+          </h3>
         </div>
       </div>
     </>
