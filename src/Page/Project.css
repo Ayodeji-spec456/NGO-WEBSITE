@@ -5,6 +5,7 @@
 }
 .come {
     display: flex;
+    z-index: 5;
     background-color: orangered;
     justify-content: center;
     list-style: none;
