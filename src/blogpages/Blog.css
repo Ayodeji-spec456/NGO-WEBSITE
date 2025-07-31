@@ -1,0 +1,85 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+    display: flex;
+    place-items: center;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 16px;
+  font-family: sans-serif;
+}
+
+.card {
+    background: #f9f9f9;
+    margin-bottom: 24px;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+    background-color: rgb(227, 244, 255);
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.actions {
+  margin: 8px 0;
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.comment-section {
+  margin-top: 16px;
+}
+
+.comment-section input {
+  padding: 0.4rem;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.comment-section ul {
+  margin-top: 8px;
+  padding-left: 16px;
+  list-style: disc;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.pagination button{
+    background-color: white;
+    border: 1px solid black;
+    color: black; 
+}
+
+.pagination button:focus{
+    background-color: black;
+    color: white;
+}
+
+form{
+    display: flex;
+}

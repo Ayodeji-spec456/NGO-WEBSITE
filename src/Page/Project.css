@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.come {
+    display: flex;
+    z-index: 5;
+    background-color: orangered;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    width: 100%;
+    position: fixed;
+}
+.them {
+    width: 100px;
+    margin-right: 300px;
+}
+.map {
+    text-decoration: none;
+    color: white;
+}
+.top {
+    margin-top: 40px;
+    text-decoration: none;
+}
+.name {
+    font-size: 60px;
+}
+.icon {
+    font-size: 100px;
+}
+.text {
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    padding: 150px;
+}
+.one {
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+}
+.col {
+    border: 1px solid orangered;
+    border-radius: 6px;
+    padding: 8px;
+    background-color: orangered;
+    color: white;
+}
+.move {
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 60px;
+}
+.farm {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.funk {
+    width: 860px;
+    height: 200px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.song {
+    width: 400px;
+    padding: 20px;
+    margin-left: 30px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.btn {
+    padding: 15px;
+    width: 160px;
+    margin-right: 700px;
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 9px;
+    color: white;
+}
+.fun {
+    font-size: 50px;
+}
+.cap {
+    width: 860px;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.big {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn1 {
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    padding: 6px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-left: 150px;
+}
+
+/* .come {
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+} */
+ 
+.pure {
+    margin-top: 150px;
+    padding: 0 120px;
+}
+.lass {
+    font-size: 50px;
+}
+.time {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.img {
+    margin-top: 150px;
+    width: 600px;
+    margin-right: 100px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.btn2 {
+    padding: 10px;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    background-color: white;
+    color: orangered;
+}
+.img1 {
+    width: 570px;
+    height: 400px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.time2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 190px;
+    gap: 100px;
+    margin-top: 200px;
+}
+.step {
+    background-color: aliceblue;
+    margin-bottom: 100px;
+}
+.key {
+    width: 300px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.tie {
+    box-shadow: 0 0 20px 1px rgb(232, 223, 223);
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.bob {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.pro {
+    text-align: center;
+}
+.lit {
+    width: 300px;
+}
+.app {
+    padding: 20px;
+}
+.fake{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    margin-right:60px;
+}
+.file {
+    width: 300px;
+    border-radius: 10px;
+}
+.gen {
+    text-align: center;
+}
+.run {
+    font-size: 50px;
+    text-align: center;
+}
+.icon9 {
+    font-size: 70px;
+    border:  1px solid orangered;
+    background-color: white;
+    color: orangered;
+    border-radius: 100px;
+    padding: 10px;
+}
+.general {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+.gene {
+    background-color: orangered;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+.second {
+    display: flex;
+    gap: 20px;
+    color: white;
+    padding-top: 100px;
+}
+.input {
+    width: 280px;
+    padding: 15px;
+    border: 1px solid white;
+}
+.btn99 {
+    width: 100px;
+    margin-left: 6px;
+    padding: 15px;
+    border: 1px solid rgb(223, 51, 3);
+    border-radius: 7px;
+    background-color: rgb(250, 41, 4);
+    color: white;
+}
+.meme {
+    margin-top: 106px;
+    margin-right: 120px;
+}
+.rite {
+    display: flex;
+    color: white;
+    gap: 10px;
+}
+.command {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 150px;
+    justify-content: center;
+    gap: 190px;
+}
+.icon7 {
+    font-size: 30px;
+    color: white;
+}
