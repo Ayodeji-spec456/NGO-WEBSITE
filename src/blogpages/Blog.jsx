@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./Blog.css";
+import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { FcLike } from "react-icons/fc";
 
 const API_KEY = "9b37bbafdefa4d259d1a341c2cfdbf25";
 const PAGE_SIZE = 10;
 const MAX_PAGE = 5;
+const totalPages = MAX_PAGE;
 
 const Blog = () => {
   const [articles, setArticles] = useState([]);
@@ -20,12 +22,13 @@ const Blog = () => {
 
   const fetchArticles = async () => {
     try {
-      const response = await fetch(
+      const response = await axios.get(
         `https://newsapi.org/v2/everything?q=health&pageSize=${PAGE_SIZE}&page=${page}&apiKey=${API_KEY}`
       );
-      const data = await response.json();
-      const shuffled = (data.articles || []).slice(0, PAGE_SIZE);
+      const shuffled = (response.data.articles || []).slice(0, PAGE_SIZE);
       setArticles(shuffled);
+      console.log(response);
+      
       console.log(shuffled);
       
     } catch (err) {
@@ -50,7 +53,6 @@ const Blog = () => {
     navigate(`/blogView/${encodedUrl}`, { state: { article } });
   };
 
-  const totalPage = MAX_PAGE;
 
   return (
     <div className="container">
@@ -126,12 +128,24 @@ const Blog = () => {
         </div>
       ))}
 
-      <div className="pagination">
-        <button onClick={() => setPage(page - 1)} disabled={page === 1}>
-          Previous
-        </button>
-        <span>Page {page} / {totalPage}</span>
-        <button onClick={() => setPage(page + 1)}>Next</button>
+      <div
+        className="pagination">
+        {Array.from({ length: totalPages }, (_, i) => i + 1).map((num) => (
+          <button
+            key={num}
+            onClick={() => setPage(num)}
+            style={{
+              padding: "8px 12px",
+              margin: "0 5px",
+              backgroundColor: page === num ? "black" : "#eee",
+              color: page === num ? "#fff" : "#000",
+              border: "none",
+              borderRadius: "4px",
+              cursor: "pointer",
+            }}>
+            {num}
+          </button>
+        ))}
       </div>
     </div>
   );
