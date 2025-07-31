@@ -5,13 +5,20 @@
   font-family: Arial, sans-serif;
 }
 
-/* h1 {
+#detitle {
   text-align: center;
   margin-bottom: 30px;
-  background-color: #779215;
-  height: 200px;
+  background-color: orangered;
+  height: 250px;
+  padding-top: 100px;
+  width: 100%;
+  font-family: cursive;
   align-content: center;
-} */
+  font-weight: 900;
+  
+  font-size: 50px;
+  color: white;
+}
 
 .card-grid {
   display: grid;
@@ -25,6 +32,7 @@
   overflow: hidden;
   background: #fff;
   transition: transform 0.2s;
+  
 }
 
 .news-card:hover {

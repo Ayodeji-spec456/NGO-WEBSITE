@@ -6,50 +6,30 @@ const Events = () => {
   const [articles, setArticles] = useState([]);
   const [page, setPage] = useState(1);
   const [totalResults, setTotalResults] = useState(0);
-  const [query, setQuery] = useState("");
-
-  // Keywords to randomize search
-  const keywords = [
-    "disease",
-    "virus",
-    "health",
-    "pandemic",
-    "infection",
-    "epidemic",
-    "covid",
-    "vaccine",
-  ];
-
-  useEffect(() => {
-    // Set a random query once on mount
-    const randomKeyword = keywords[Math.floor(Math.random() * keywords.length)];
-    setQuery(randomKeyword);
-  }, []);
-
-  useEffect(() => {
-    if (query) {
-      fetchNews();
-    }
-  }, [page, query]);
 
   const fetchNews = async () => {
     try {
       const res = await axios.get(
-        `https://newsapi.org/v2/everything?q=${query}&page=${page}&pageSize=20&apiKey=a336b6d5d8b944258cf974dff4421fea`
+        `https://newsapi.org/v2/everything?q=disease&page=${page}&pageSize=10&apiKey=a336b6d5d8b944258cf974dff4421fea`
       );
       setArticles(res.data.articles);
       setTotalResults(res.data.totalResults);
-      console.log(`Query: ${query}`, res.data);
+      console.log(res.data);
     } catch (err) {
       console.error("Error fetching news:", err);
     }
   };
 
-  const totalPages = Math.ceil(totalResults / 20);
+  useEffect(() => {
+    fetchNews();
+  }, [page]);
+
+  const totalPages = Math.ceil(totalResults / 2500);
 
   return (
+    <>
+    <h1 id="detitle">Stay up to date with our daily news.</h1>
     <div className="news-container">
-    
       
 
       <div className="card-grid">
@@ -80,7 +60,9 @@ const Events = () => {
         </button>
       </div>
     </div>
+    </>
   );
 };
+
 
 export default Events;
