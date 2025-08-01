@@ -1,142 +1,198 @@
 import React from "react";
 import "./AboutUs.css";
 
-
-const AboutUs = () => {
+const About = () => {
   return (
-    <section className="about-section">
-      <div className="container">
-        <div className="about-header">
-          <h2>About Us</h2>
-          <h1>Welcome to Non-governmental Organisation</h1>
+    <div className="about-page">
+      <section className="about-hero">
+        <div className="hero-text">
+          <h1 className="mine">Vital Age</h1>
+          <p>Caring for the Elderly. Changing Lives.</p>
+        </div>
+      </section>
+
+      <div className="old">
+        <img src="/old 2.jpg" alt="" className="old1" />
+        <div className="aboutus">
+          <p className="associate">Vital Age Association</p>
+          <p className="head">About Us</p>
+          <p>
+            Our programs focus on physical health, emotional well-being, and
+            social inclusion. With a dedicated team and strong community
+            partnerships, we work tirelessly to ensure that no senior is left
+            behind.
+          </p>
+        </div>
+      </div>
+
+      <div className="about-div">
+        <section className="about-section-one">
+          <h2>About Vital Age</h2>
+          <p className="vital">
+            Vital Age is a non-governmental organization (NGO) committed to
+            improving the quality of life for elderly individuals in our
+            communities. Our work is built on compassion, respect, and a deep
+            belief that aging should be a journey of dignity, purpose, and care.
+          </p>
+          <p>
+            We serve older adults who face challenges such as poverty,
+            abandonment, illness, and neglect. Our programs focus on physical
+            health, emotional well-being, and social inclusion. With a dedicated
+            team and strong community partnerships, we work tirelessly to ensure
+            that no senior is left behind.
+          </p>
+          <p>
+            From health services to home visits, from advocacy to joyful events,
+            Vital Age is a place where older people are heard, helped, and
+            honored.
+          </p>
+        </section>
+
+        <div>
+          <h2>Our Mission</h2>
+          <p>
+            To empower older adults with access to health, love, and support—so
+            they can live in dignity, safety, and peace. We aim to protect the
+            rights of the elderly and ensure they are respected and recognized
+            as vital members of society.
+          </p>
+        </div>
+      </div>
+
+      <section className="about-section mission-vision">
+        <div>
+          <h2>Our Vision</h2>
+          <p>
+            A world where every aging person is supported, celebrated, and
+            valued—regardless of age, health, or social status. We envision a
+            future where the elderly can thrive with purpose and connection.
+          </p>
         </div>
 
-        <p>
-          The Nigeria Network of NGOs (NNNGO) is the first generic membership
-          body for civil society organisations in Nigeria that facilitates
-          effective advocacy on issues of poverty and other developmental
-          issues. Established in 1992, NNNGO represents over 3495 organisations
-          ranging from small groups working at the local level, to larger
-          networks working at the national level.
-        </p>
+        <section className="about-section impact">
+          <h3>Our impact</h3>
+          <p>
+            We measure success by the smiles we restore, the health we improve,
+            and the lives we touch. Some of our results:
+          </p>
+          <ul>
+            <li>🩺Elderly people medically supported</li>
+            <li>🛍Food packages distributed annually</li>
+            <li>👥 Active volunteers engaged across regions</li>
+            <li>🏘 Home visits completed in underserved areas</li>
+            <li>📢 Elder rights campaigns launched in local communities</li>
+          </ul>
+        </section>
+      </section>
 
-        <p>
-          The Network is charged with the objective of identifying, registering,
-          coordinating, building capacity and mobilizing civil society
-          organisations to promote interconnectivity and bring equity, justice,
-          peace, and development to grassroots communities throughout Nigeria,
-          including the implementation of the Sustainable Development Goals
-          (SDGs).
-        </p>
+      <div className="core">
+        <section className="about-section">
+          <h2>Our Core Values</h2>
+          <ul>
+            <li>
+              <strong>Compassion:</strong> We treat every elderly person with
+              kindness, empathy, and love.
+            </li>
+            <li>
+              <strong>Dignity:</strong> We believe aging is a privilege, not a
+              problem.
+            </li>
+            <li>
+              <strong>Respect:</strong> Every voice deserves to be
+              heard—especially those of our elders.
+            </li>
+            <li>
+              <strong>Equity:</strong> We serve without discrimination, putting
+              people first.
+            </li>
+            <li>
+              <strong>Community:</strong> We build lasting bonds between seniors
+              and society.
+            </li>
+          </ul>
+        </section>
 
-        <p className="intro">
-          We are a nonprofit organization committed to strengthening the
-          capacity of civil society organizations (CSOs) in Nigeria. Our network
-          brings together grassroots initiatives, advocacy groups, development
-          partners, and nonprofit organizations to foster collaboration,
-          accountability, and social impact.
-        </p>
-
-        <h3>👥 Our Story</h3>
-        <p>
-          Founded in 1992, our organization began as a small coalition of NGOs
-          seeking to address the fragmented and often under-resourced nonprofit
-          landscape in Nigeria. Over the decades, we have evolved into a
-          national network representing thousands of CSOs across diverse
-          sectors—from education and healthcare to environmental protection and
-          women’s rights.
-        </p>
-        <p>
-          We believe that a strong civil society is essential for democracy,
-          sustainable development, and social justice. Through partnerships,
-          training, policy dialogue, and research, we have helped amplify the
-          voices of the underserved and empowered organizations to thrive and
-          create long-lasting change.
-        </p>
-
-        <h3>🎯 Our Mission</h3>
-        <p>
-          To build a resilient and inclusive civil society ecosystem in Nigeria
-          by enhancing nonprofit performance, advocating for enabling legal and
-          policy environments, and promoting collaboration among stakeholders.
-        </p>
-
-        <h3>Our Vision</h3>
-        <p>
-          A vibrant, empowered, and accountable civil society that supports
-          inclusive growth, democratic governance, and the well-being of all
-          Nigerians.
-        </p>
-
-        <h3>🧠Our Core Values</h3>
-        <ul>
-          <li>
-            <strong>Transparency:</strong> We maintain openness in all our
-            operations and dealings.
-          </li>
-          <li>
-            <strong>Accountability:</strong> We take responsibility for our
-            actions and their impact on communities.
-          </li>
-          <li>
-            <strong>Inclusivity:</strong> We believe in equal opportunity for
-            all, regardless of gender, age, or background.
-          </li>
-          <li>
-            <strong>Collaboration:</strong> We work with local and international
-            partners to amplify impact.
-          </li>
-          <li>
-            <strong>Innovation:</strong> We embrace new ideas to solve complex
-            social issues.
-          </li>
-        </ul>
-
-        <h3>📊What We Do</h3>
-        <ul>
-          <li>
-            Provide training and resources for nonprofit development and
-            governance
-          </li>
-          <li>
-            Advocate for laws and policies that support NGO operations and
-            independence
-          </li>
-          <li>
-            Conduct research on civil society trends, impact, and challenges
-          </li>
-          <li>
-            Support NGOs in registration, compliance, and regulatory filing
-          </li>
-          <li>Create platforms for cross-sector dialogue and partnerships</li>
-          <li>
-            Monitor and evaluate nonprofit projects and donor accountability
-          </li>
-        </ul>
-
-        <h3>🤝 Our Impact (2024 Highlights)</h3>
-        <ul>
-          <li>2,400+ registered NGOs actively engaged across Nigeria</li>
-          <li>
-            350+ capacity building workshops and online trainings conducted
-          </li>
-          <li>120 policy briefs and civil society reports published</li>
-          <li>
-            Millions of citizens indirectly impacted through member
-            interventions
-          </li>
-        </ul>
-
-        <h3>📢 Join Us</h3>
-        <p>
-          Whether you're an organization looking to scale your impact or an
-          individual passionate about nonprofit development, we welcome you to
-          be part of our mission. Together, we can create a stronger, more just
-          society for all.
-        </p>
+        <section className="about-section">
+          <h2>What We Do</h2>
+          <p>
+            Vital Age offers a wide range of support services and programs
+            focused on the total well-being of older adults:
+          </p>
+          <ul>
+            <li>
+              <strong>Healthcare Services:</strong> Free medical checkups,
+              medicine distribution, and health talks.
+            </li>
+            <li>
+              <strong>Home Support:</strong> Regular home visits for isolated or
+              sick seniors.
+            </li>
+            <li>
+              <strong>Nutrition:</strong> Food drives and monthly groceries for
+              elders in need.
+            </li>
+            <li>
+              <strong>Social Events:</strong> Community gatherings, birthdays,
+              and holiday celebrations for seniors.
+            </li>
+            <li>
+              <strong>Mental Health:</strong> Counseling, listening sessions,
+              and wellness workshops.
+            </li>
+            <li>
+              <strong>Awareness Campaigns:</strong> Advocacy against elder abuse
+              and education for families and communities.
+            </li>
+          </ul>
+        </section>
       </div>
-    </section>
+
+      <section className="about-section">
+        <h2>How We Work</h2>
+        <p>
+          Our approach is community-driven. We work hand-in-hand with families,
+          local health providers, religious bodies, and government agencies to
+          reach elderly people where they live.
+        </p>
+        <p>
+          Vital Age operates on transparency, collaboration, and data-based
+          strategies. Each program is tailored to meet the unique needs of the
+          aging population in the areas we serve.
+        </p>
+        <p>
+          We maintain regular communication with beneficiaries and ensure
+          accountability at every level of operation.
+        </p>
+      </section>
+
+      <section className="about-section support">
+        <h2>Get Involved</h2>
+        <p>
+          Your support can make a huge difference. Whether through donations,
+          volunteering, or partnerships—you can help us reach more seniors.
+        </p>
+        <ul>
+          <li>💝 Donate to help us run medical and food programs</li>
+          <li>🙋🏽‍♀️ Become a volunteer in your local area</li>
+          <li>🧩 Partner with us as an organization or brand</li>
+          <li>📣 Share our mission and raise awareness in your circles</li>
+        </ul>
+      </section>
+
+      <section className="about-section">
+        <h2>A Final Word</h2>
+        <p>
+          At Vital Age, we believe that every stage of life deserves respect,
+          attention, and joy. Together, we can build a society where the elderly
+          are not forgotten—but are seen, heard, and held in high esteem.
+        </p>
+        <p>
+          Thank you for being part of this vision. Your interest is already a
+          step toward change.
+        </p>
+      </section>
+    </div>
   );
 };
 
-export default AboutUs;
+export default About;

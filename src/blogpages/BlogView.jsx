@@ -10,9 +10,15 @@ const BlogView = () => {
   const article = state?.article;
 
   return (
-    <div style={{ padding: "20px", maxWidth: "800px", margin: "auto" }}>
+    <div
+      style={{
+        padding: "20px",
+        maxWidth: "800px",
+        margin: "auto",
+        paddingTop: "110px",
+      }}>
       <button onClick={() => navigate(-1)} style={{ marginBottom: "20px" }}>
-        <FaArrowLeft /> 
+        <FaArrowLeft />
         Back
       </button>
       <h1>{article.title}</h1>
