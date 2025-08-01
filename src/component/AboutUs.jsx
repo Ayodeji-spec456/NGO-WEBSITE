@@ -6,7 +6,7 @@ const About = () => {
     <div className="about-page">
       <section className="about-hero">
         <div className="hero-text">
-          <h1>Vital Age</h1>
+          <h1 className="mine">Vital Age</h1>
           <p>Caring for the Elderly. Changing Lives.</p>
         </div>
       </section>
@@ -14,7 +14,7 @@ const About = () => {
       <div className="old">
         <img src="/old 2.jpg" alt="" className="old1" />
         <div className="aboutus">
-          <p>Vital Age Association</p>
+          <p className="associate">Vital Age Association</p>
           <p className="head">About Us</p>
           <p>
             Our programs focus on physical health, emotional well-being, and
@@ -48,7 +48,7 @@ const About = () => {
           </p>
         </section>
 
-        <div className="mission">
+        <div>
           <h2>Our Mission</h2>
           <p>
             To empower older adults with access to health, love, and support—so
