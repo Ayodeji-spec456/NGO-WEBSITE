@@ -34,27 +34,8 @@ const Home = () => {
           <h1 className="run">About Us</h1>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <div className="step">
-        <br />
-        <br />
-        <br />
-        <br />
         <h1 className="run">Our Programs</h1>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <div className="bob">
           <div className="lit">
             <img className="key" src="/image9.jpeg" alt="" />
@@ -92,15 +73,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
       <div>
         <div className="gen">
           <h1 className="run">Latest Events</h1>

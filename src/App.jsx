@@ -7,6 +7,9 @@ import Contact from './Page/Contact';
 import Home from './Page/Home';
 import Blog from './blogpages/Blog';
 import BlogView from "./blogpages/BlogView";
+import Footer from "./Page/footer";
+
+
 
 
 function App() {
@@ -22,6 +25,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blogView/:encodeUrl" element={<BlogView />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
