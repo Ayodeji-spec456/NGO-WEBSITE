@@ -32,7 +32,8 @@ const Blog = () => {
       console.log(shuffled);
       
     } catch (err) {
-      console.error("Failed to fetch articles:", err);
+      console.log(err);
+      
     }
   };
 
@@ -62,7 +63,7 @@ const Blog = () => {
             The <br />
             <span style={{ fontSize: "60px" }}>Health Blog</span>
           </h1>
-          <p style={{ color: "gray" }}>
+          <p style={{ color: "gray", paddingBottom: "14px"  }}>
             Explore practical insights, expert tips, and helpful guides on
             common health conditions in old age, with a focus on prevention,
             care, and improving daily well-being for the elderly.
